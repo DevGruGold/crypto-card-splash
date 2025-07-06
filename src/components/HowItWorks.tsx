@@ -2,16 +2,16 @@ import { Check } from "lucide-react";
 
 const steps = [
   {
-    title: "Connect Your Wallet",
-    description: "Link your existing crypto wallet or create a new one through our secure platform",
+    title: "Connect to Sepolia Testnet",
+    description: "Connect your wallet to Sepolia testnet to access XMRT token functionality",
   },
   {
-    title: "Order Your Card",
-    description: "Complete a simple verification process and order your physical CryptoCard",
+    title: "Verify XMRT Token Holdings",
+    description: "Confirm your XMRT token balance and smart contract interaction capabilities",
   },
   {
-    title: "Start Spending",
-    description: "Use your card anywhere, anytime. We handle the crypto conversion automatically",
+    title: "Complete Anonymous Signup",
+    description: "Finish the privacy-focused signup process while maintaining your anonymity",
   },
 ];
 

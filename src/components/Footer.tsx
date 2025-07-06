@@ -37,7 +37,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t text-center text-gray-600 dark:text-gray-300">
-          © {new Date().getFullYear()} CryptoCard. All rights reserved.
+          © {new Date().getFullYear()} XMRT SignUp Card. All rights reserved. | <a href="https://sepolia.etherscan.io/token/0x77307DFbc436224d5e6f2048d2b6bDfA66998a15" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">XMRT Token Contract</a>
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createWeb3Modal } from '@web3modal/wagmi/react'
 import { WagmiProvider } from 'wagmi'
-import { mainnet } from 'wagmi/chains'
+import { sepolia } from 'wagmi/chains'
 import { createConfig, http } from 'wagmi'
 import Index from "./pages/Index";
 
@@ -17,16 +17,16 @@ const projectId = '5f8e07430b1c35015c470f5cd86dbde3'
 
 // 2. Create wagmiConfig
 const metadata = {
-  name: 'CryptoCard',
-  description: 'CryptoCard Web3 Application',
-  url: 'https://cryptocard.lovable.app', // origin must match your domain & subdomain
+  name: 'XMRT SignUp Card',
+  description: 'XMRT SignUp Card - Privacy-First Web3 Application',
+  url: 'https://xmrtsignup.lovable.app', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
 const config = createConfig({
-  chains: [mainnet],
+  chains: [sepolia],
   transports: {
-    [mainnet.id]: http()
+    [sepolia.id]: http()
   },
 })
 

@@ -6,16 +6,16 @@ export const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            CryptoCard
+            XMRT SignUp Card
           </h1>
           <nav className="hidden md:flex space-x-6">
             <a href="#features" className="text-sm hover:text-primary transition-colors">Features</a>
             <a href="#how-it-works" className="text-sm hover:text-primary transition-colors">How it works</a>
-            <a href="#faq" className="text-sm hover:text-primary transition-colors">FAQ</a>
+            <a href="#xmrt-project" className="text-sm hover:text-primary transition-colors">XMRT Project</a>
           </nav>
         </div>
         <Button size="lg" className="bg-primary hover:bg-primary/90">
-          Get Started
+          Sign Up for XMRT
         </Button>
       </div>
     </header>
